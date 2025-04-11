@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pawan Upadhyay | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full z-50 bg-black/50 backdrop-blur shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-400">Pawan</h1>
+      <nav class="space-x-6 text-sm">
+        <a href="#about" class="hover:text-indigo-400 transition">About</a>
+        <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+        <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+        <a href="#contact" class="hover:text-indigo-400 transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center text-center px-4" id="home">
+    <div class="mt-20 animate-fadeIn">
+      <h2 class="text-5xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-500">
+        Hi, I'm Pawan Upadhyay
+      </h2>
+      <p class="text-lg text-gray-300 max-w-xl mx-auto">
+        B.Tech CSE @ Sharda University | CGPA: 8.6<br>
+        Full Stack Developer • Python • Java • React (Basics)
+      </p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-6 text-indigo-400">About Me</h2>
+      <p class="text-gray-300 leading-relaxed">
+        I'm currently pursuing a B.Tech in Computer Science and Engineering from Sharda University (Delhi NCR).<br>
+        I'm passionate about building impactful software, solving real-world problems, and continuously learning new technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-black/20 backdrop-blur">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center mb-10 text-indigo-400">Technical Skills</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-center">
+        <div class="bg-gray-800 rounded-xl p-4 hover:bg-indigo-500 transition">Java</div>
+        <div class="bg-gray-800 rounded-xl p-4 hover:bg-indigo-500 transition">C / C++</div>
+        <div class="bg-gray-800 rounded-xl p-4 hover:bg-indigo-500 transition">HTML / CSS / JS</div>
+        <div class="bg-gray-800 rounded-xl p-4 hover:bg-indigo-500 transition">ReactJS</div>
+        <div class="bg-gray-800 rounded-xl p-4 hover:bg-indigo-500 transition">Node.js</div>
+        <div class="bg-gray-800 rounded-xl p-4 hover:bg-indigo-500 transition">MongoDB</div>
+        <div class="bg-gray-800 rounded-xl p-4 hover:bg-indigo-500 transition">SQL / DBMS</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center mb-10 text-indigo-400">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur border border-white/10 shadow hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-2 text-indigo-300">Tetris Game</h3>
+          <p class="text-gray-300 text-sm">Custom Python-based Tetris game built during semester 2 with a team of two.</p>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur border border-white/10 shadow hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-2 text-indigo-300">Safety Handheld Device</h3>
+          <p class="text-gray-300 text-sm">Device for women's safety, designed for Smart India Hackathon. Authored a review paper.</p>
+        </div>
+        <div class="bg-white/10 p-6 rounded-xl backdrop-blur border border-white/10 shadow hover:scale-105 transition">
+          <h3 class="text-xl font-semibold mb-2 text-indigo-300">Event Management System</h3>
+          <p class="text-gray-300 text-sm">Web platform to manage university event registrations and submissions (ongoing).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-black/30 backdrop-blur">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-4 text-indigo-400">Contact Me</h2>
+      <p class="text-gray-300 mb-6">I’m always open to new opportunities and collaborations. Let’s connect!</p>
+      <div class="space-x-4">
+        <a href="mailto:pawanupadhyay2204@gmail.com" class="bg-indigo-600 px-5 py-2 rounded hover:bg-indigo-500 transition">Email</a>
+        <a href="https://www.linkedin.com/in/pawan-upadhyay-bb9968281/" target="_blank" class="bg-blue-600 px-5 py-2 rounded hover:bg-blue-500 transition">LinkedIn</a>
+        <a href="https://github.com/Pawan680-u/Pawan-Upadhyay" target="_blank" class="bg-gray-700 px-5 py-2 rounded hover:bg-gray-600 transition">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-6 text-sm text-gray-500">
+    © 2025 Pawan Upadhyay. All rights reserved.
+  </footer>
+
+</body>
+</html>
